@@ -1,0 +1,10 @@
+numpy
+Pillow
+colorama
+cryptography
+numba
+pydub
+rustworkx-0.16.0
+qiskit
+qiskit_aer
+rustworkx

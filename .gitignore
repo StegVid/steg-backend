@@ -1,0 +1,61 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# SQLite database
+*.sqlite3
+
+# Secrets
+*.env
+.env.*
+
+# Django static/media files (generated or user-uploaded)
+staticfiles/
+static/
+media/
+
+# VS Code and other editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+
+# Test and debug files
+.pytest_cache/
+.tox/
+debug.log
+
+# Node/npm (if you’re using frontend in the same repo)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Build output (if applicable)
+build/
+dist/
+
+# Docker
+*.pid
+*.tar
